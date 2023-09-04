@@ -26,5 +26,15 @@ let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber) */
 
+//Conversion 
+
+//console.log("2" !=1);
+/* console.log(null>0)
+console.log(null == 0);
+console.log(null <=0);
+
+console.log(undefined>0)
+console.log(undefined == 0);
+console.log(undefined < 0); */
 
 
