@@ -9,11 +9,11 @@ const {courseInstructor: instruct} = course//acccessing using assign mehtod
 console.log(instruct);
 
 //API discussion
-{//declarinf API and assigning values to it
+/* {//declarinf API and assigning values to it
     "name":"hitesh",
     "coursename":"js in hindi"
     "price":"free"
-}
+} */
 
 //array API
 [
