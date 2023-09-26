@@ -2,19 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   
-    <title>DOM Learning</title>
-    <style>
-        .bg-black{
-            background-color: #212121;
-            color: #eacece;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur code</title>
 </head>
-<body class="big-black">
-    <div>
-        <h1 id="title" class="heading">DOM learning on chai</h1>
-        <p>lorem ipsum dolor sit amet</p>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!--this is a comment-->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
     </div>
 </body>
+<script>
+    const parent = document.querySelector('.parent')
+    //console.log(parent);
+    //console.log(parent.children);//to get the children element
+    //console.log(parent.children[1].innerHTML);//to get the innerHTML name i.e Tuesday
+
+    /* for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+        
+    } */
+    /* parent.children[1].style.color = "orange"
+    console.log(parent.firstElementChild);//to get the first element i.e monday
+    console.log(parent.lastElementChild);//to get the last element i.e thursday
+ */
+    const dayOne = document.querySelector('.day')
+    //console.log(dayOne.parentElement);
+    //console.log(dayOne.nextElementSibling);//bhaii
+    console.log("Nodes: ",parent.childNodes); 
+</script>
 </html>
